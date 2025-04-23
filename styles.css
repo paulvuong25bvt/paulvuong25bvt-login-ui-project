@@ -5,10 +5,17 @@
     box-sizing: border-box;    
 }
 
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 /* Container */
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;    
     max-width: 400px;
     min-height: 225px;    
@@ -21,10 +28,10 @@
 .form{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.form h2{
+.container h3{
     font-family: sans-serif;
     font-size: 2rem;
 }
