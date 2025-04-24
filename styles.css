@@ -42,6 +42,8 @@
     justify-content: space-around;
 
     align-items: center;
+
+    background-color: whitesmoke;
 }
 
 .container h3{
@@ -53,6 +55,12 @@
     border-left: 0;
     border-top: 0;
     border-right: 0;
+
+    transition:  transform 0.2s;
+}
+
+.box:hover{
+    transform: scale(1.25);
 }
 
 #submit{
@@ -61,8 +69,12 @@
     border: none;
     padding: 10px 50px 10px 50px;
     -webkit-text-fill-color: azure;
+    transition:  transform 0.2s;
 }
 
+#submit:hover{
+    transform: scale(1.25);
+}
 
 
 
